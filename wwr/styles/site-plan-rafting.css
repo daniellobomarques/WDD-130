@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/IBM+Plex+Sans);
+@import url('https://fonts.google.com/specimen/IBM+Plex+Sans');
 
 :root{
     --primary-color: #0d0d44;
@@ -16,9 +16,9 @@
 }
 
 body{
-    f: var(--paragraph-font);
-    m: ;
-    p: ;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6{
