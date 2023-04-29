@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
 
 :root{
     --primary-color: #0d0d44;
@@ -6,8 +6,8 @@
     --accent1-color: #99BBD6;
     --accent2-color: #686868;
 
-    --heading-font: 'IBM Plex Sans', serif;
-    --paragraph-font: 'IBM Plex Sans', serif;
+    --heading-font: "IBM Plex Sans", serif;
+    --paragraph-font: "IBM Plex Sans", serif;
 
     --nav-background-color: #6F3FDE;
     --nav-link-color: #6F3FDE;
