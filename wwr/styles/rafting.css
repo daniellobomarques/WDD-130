@@ -9,10 +9,38 @@
     --heading-font: "IBM Plex Sans", serif;
     --paragraph-font: "IBM Plex Sans", serif;
 
-    --nav-background-color: #0d0d44;
-    --nav-link-color: #5B9BC2;
+    --nav-background-color: #5B9BC2;
+    --nav-link-color: #0d0d44;
     --nav-hover-link-color: #99BBD6;
     --nav-hover-background-color: #686868;
+}
+
+main img{
+    width: 165px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.happyclient img{
+    position: absolute;
+    top: 500px;
+    left: 448px;
 }
 
 body{
@@ -21,9 +49,29 @@ body{
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    padding: 15px;
+    background-color: #7ca3bbc5;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.274);
+}
+
+h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+article p{
+    position: absolute;
+    top: 480px;
+    left: 25px;
+    right: 200px;
+    padding: 10px;
+    background-color: #ffffffc5;
 }
 
 header{
@@ -55,4 +103,3 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
