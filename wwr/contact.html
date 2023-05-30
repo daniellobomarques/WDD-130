@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rafting Project: About Us Page</title>
+    <meta name="description" content="Daniel Lobo Marques index page for the wdd130 course project">
+    <meta name="author" content="Daniel Lobo Marques">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+    <img src="images/logo.png" alt="Rafting Site Logo" width="120">
+     <nav>
+      <ul class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </ul>
+     </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact Us</h1>
+        <h2>Send Us a Message</h2>   
+        <p>White Water Rafting</p>
+        <p>Phone: 999-999-9999</p>
+        <p>Email: <a href="mailto:">whitewaterrafting@email.com</a></p>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7314.980056567359!2d-46.637625134420716!3d-23.550837804580148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1685364217473!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <h2>Employees</h2>   
+        <div class="gallery">
+          <figure>
+            <img src="images/employee1.jpg" alt="Employee Image">
+            <figcaption>Mariana Alpha</figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee2.jpg" alt="Employee Image">
+            <figcaption>Raul Beta</figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee3.jpg" alt="Employee Image">
+            <figcaption>Jessica Delta</figcaption>
+          </figure>
+        </div>
+
+          <form>
+            <fieldset>
+            <legend>Contact Information</legend>
+              <form action="/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+              
+                <label for="purpose">Purpose:</label><br>
+                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                <label for="general">General Inquiry</label><br>
+              
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label><br>
+              
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label><br><br>
+              
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+              
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+              
+                <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+              </form>
+            </fieldset>
+          </form>
+      </section>
+    </main>
+
+  <footer>
+    <p>-- ©️ 2023 | Rafting Company | Daniel Lobo Marques | Sao Paulo, Brazil --</p>
+    <nav class="sociallinks">
+      <a href="https://facebook.com">
+        <img src="images/facebook.svg" alt="Facebook" width="50">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.svg" alt="Twitter" width="50">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.svg" alt="Instagram" width="50">
+      </a>
+    </nav>
+  </footer>
+  </body>
+<!-- Modified in May 20th, 2023 --> 
+</html>

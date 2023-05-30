@@ -76,12 +76,15 @@ body{
     padding: 20px;
 }
 
+h1{
+    font-size: 3vw;
+}
 
 h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 2.7vw;
 }
 
 article p{
@@ -137,7 +140,7 @@ header{
   
   figcaption {
     text-align: center;
-    font-size: 14px;
+    font-size: 1.5vw;
     margin-top: 5px;
   }
 
@@ -150,12 +153,12 @@ header{
   }
   
   section p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
   }
 
   footer p {
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
   }
   
   .sociallinks {
@@ -169,7 +172,7 @@ header{
   }
   
   .sociallinks img {
-    width: 50px;
+    width: 4vw;
   }
 
 nav{
