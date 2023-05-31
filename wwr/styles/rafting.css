@@ -260,3 +260,53 @@ th, td {
 th {
   background-color: #5B9BC2;
 }
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-form input {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form button {
+  max-width: 150px;
+}
+
+.cta-section {
+  text-align: center;
+  font-size: 1.7vw;
+}
+
+.cta-link {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item h3 {
+  margin-top: 10px;
+}
+
+.grid-item p {
+  margin-bottom: 10px;
+}
+
