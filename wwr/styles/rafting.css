@@ -26,6 +26,12 @@ footer{
     position: relative;
   }
 
+.hero-content p {
+    background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  font-size: 1.5vw;
+  margin-right: 24%;
+}
 
 .hero-image {
     width: 100%;
@@ -51,7 +57,7 @@ footer{
 .hero-title {
     font-family: var(--heading-font);
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: var(--primary-color);
     padding: 15px;
     background-color: #7ca3bbc5;
@@ -98,7 +104,7 @@ article p{
 header{
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 4fr 5fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 100%;
@@ -149,12 +155,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #5B9BC2;
   }
   
-  section p {
-  }
-
   footer p {
     margin: 0;
   }
