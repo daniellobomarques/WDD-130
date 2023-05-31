@@ -89,7 +89,7 @@ h2, h3, h4, h5, h6{
 
 article p{
     width: 70%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding: 25px;
     background-color: #ffffffc5;
     flex-grow: 1;
@@ -153,12 +153,10 @@ header{
   }
   
   section p {
-    font-size: 1.3vw;
   }
 
   footer p {
     margin: 0;
-    font-size: 1.1vw;
   }
   
   .sociallinks {
@@ -184,7 +182,6 @@ nav{
 .navigation {
     display: flex;
     list-style: none;
-    font-size: 1.8vw;
 }
 
 .navigation li{
@@ -218,4 +215,45 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.containertrips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.trip {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+}
+
+.trip h2 {
+  margin-top: 0;
+}
+
+.trip p {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #0d0d44;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #5B9BC2;
 }

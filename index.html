@@ -10,13 +10,33 @@
   </head>
   <body>
     <header>
-     <nav>
-      <a href="#">Home</a>
-      <a href="wwr/">White Water Rafting Website</a>
-      <a href="#">White Water Rafting Siteplan</a>
-      <a href="https://www.linkedin.com/in/daniellobomarques/">Linkedin Profile</a>
-      <a href="https://www.facebook.com/">Facebook Page</a>
-     </nav>
+      <style>
+        .center-nav {
+          display: flex;
+          justify-content: center;
+        }
+      
+        .center-nav nav {
+          display: flex;
+          width: 100%;
+          max-width: 800px;
+        }
+      
+        .center-nav nav a {
+          flex-grow: 1;
+          text-align: center;
+        }
+      </style>
+      
+      <div class="center-nav">
+        <nav>
+          <a href="#">Home</a>
+          <a href="wwr/">White Water Rafting Website</a>
+          <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
+          <a href="https://www.linkedin.com/in/daniellobomarques/">Linkedin Profile</a>
+          <a href="https://www.facebook.com/">Facebook Page</a>
+        </nav>
+      </div>
     </header>
     <div class="grid">
       <main>
@@ -31,9 +51,11 @@
         </ul>
       </main>
       <aside class="box">
-        <h2>Sao Paulo, Brazil</h2>
-        <img src="images/w2-img1-saopaulo.jpg" alt="state-country-image" width="200">
-        <p>Sao Paulo is a state in the southern Brazil, the most populated and with the highest economic and socioeconomic inicators of the country</p>
+        <div class="image-container">
+          <img src="images/w2-img1-saopaulo.jpg" alt="state-country-image" width="200">
+          <h2>Sao Paulo, Brazil</h2>
+        </div>
+        <p>Sao Paulo is a state in southern Brazil, the most populated and with the highest economic and socioeconomic indicators in the country.</p>
       </aside>
     </div>
     <footer>
